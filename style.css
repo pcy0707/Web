@@ -1,0 +1,86 @@
+/* Add your own custom styles here */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+}
+
+
+/* This is the code for the position, size, image, etc of each of the 4 boxes */
+
+.F1 {
+    position:absolute;
+    top: 120px;
+    left: 20px;
+    height: 390px;
+    width: 790px;
+    background-image: url('water.png');
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: #000;
+    border-style: solid;
+    border-width: medium;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.F2 {
+    position:absolute;
+    top: 120px;
+    left: 850px;
+    height: 390px;
+    width: 790px;
+    background-image: url('goals.png');
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: #000;
+    border-style: solid;
+    border-width: medium;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+
+.F3 {
+    position:absolute;
+    top: 550px;
+    left: 20px;
+    height: 390px;
+    width: 790px;
+    background-image: url('quiz.png');
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: #000;
+    border-style: solid;
+    border-width: medium;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+
+.F4 {
+    position:absolute;
+    top: 550px;
+    left: 850px;
+    height: 390px;
+    width: 790px;
+    background-image: url('donation.png');
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: #000;
+    border-style: solid;
+    border-width: medium;
+    border-radius: 15px;
+    padding: 10px;
+}

@@ -1,0 +1,49 @@
+/*This is the font and the header's settings*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+}
+
+
+/* This is the code for the position, size, image, etc of the 2 text boxes */
+
+.text {
+    position:absolute;
+    top: 120px;
+    left: 20px;
+    height: 650px;
+    width: 800px;
+    border-style: solid;
+    border-width: medium;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.F2 {
+    position:absolute;
+    top: 120px;
+    left: 900px;
+    height: 650px;
+    width: 700px;
+    background-image: url('whale.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #000;
+    border-style: solid;
+    border-width: medium;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+/*this is the text size for everyting in <p>*/
+p{
+    font-size:25px;
+}
